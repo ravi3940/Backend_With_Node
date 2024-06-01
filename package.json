@@ -1,18 +1,16 @@
 {
   "name": "backend_with_node",
   "version": "1.0.0",
-  "description": " backend with node.js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [
-    "javascript",
-    "backend"
-  ],
-  "author": "ravi kumar",
+  "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
-    "expresss": "^0.0.0"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
   }
 }
